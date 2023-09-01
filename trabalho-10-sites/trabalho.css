@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #b0b0b1;
+    --cor1: #444a58;
+    --cor2: #f2f5f0;
+    --pricipal: font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--pricipal);
+    text-align: center;
+    background-color: var(--cor1);
+}
+
+header {
+    display: block;
+    min-width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: var(--cor0);
+}
+
+header > h1 {
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+header > p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 2px;
+    padding: 0px;
+}
+
+nav {
+    text-align: center;
+    padding: 6px;
+    box-shadow: 2px;
+}
+
+nav > a {
+    padding: 6px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition-duration: .10s;
+}
+
+main {
+    margin: 5%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    min-width: 800px;
+    text-align: center;
+    background-color: var(--cor0);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    transition-duration: .10s;
+}
+
+a:hover {
+    background-color: var(--cor2);
+    transition: none;
+}   
+
+h1 {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 6px;
+    text-indent: 0px;
+}
+
+article {
+    text-indent: 20px;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+footer {
+    margin-top: 2%;
+    background-color: var(--cor0);
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 6px;
+
+}
+
+.sobre {
+    min-width: 400px;
+    max-width: 1200px;
+    min-height: 400px;
+    max-height: 1600px;
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    background-color: var(--cor0);
+    display: block;
+    text-align: justify;
+}
+
+.video {
+    text-align: center;
+    position: relative;
+    padding: 6px;
+}
+
+.video > iframe {
+    top: 10%;
+    left: 10%;
+    width: 100%;
+    height: 60%;
+    aspect-ratio: 16 / 9;
+}
+
+.audio {
+    padding: 6px;
+    text-align: center;
+}
+
+.mapa > img {
+    width: 60%;
+    height: 40%;
+}
+
+
+
+.ação {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 6px;
+}
+
+.anime{
+    width: 200px;
+    border-radius: 5px;
+    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+ 
+footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
